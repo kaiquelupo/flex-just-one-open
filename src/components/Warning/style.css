@@ -1,0 +1,23 @@
+#warning-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#warning-container img {
+    border: 2px solid #666;
+}
+
+#warning-container div {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#warning-container span {
+    font-weight: normal;
+    font-size: 15px;
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "name": "plugin-one-flex-open",
+    "version": "0.0.0",
+    "class": "OneFlexOpenPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:3000/plugin-one-flex-open.js"
+  }
+]
