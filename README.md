@@ -7,7 +7,7 @@ This plugin adds a warning to the page when a person opens more than one Flex ta
 </p>
 
 <p align="center">
-    <img src="screenshots/notification.png?raw=true" width="400">
+    <img src="screenshots/notification.png?raw=true" width="600">
 </p>
 
 ## Setup
