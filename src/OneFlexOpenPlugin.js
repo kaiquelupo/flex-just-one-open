@@ -2,6 +2,7 @@ import React from 'react';
 import { FlexPlugin } from 'flex-plugin';
 import { checkFlexTab } from './helpers';
 import Warning from './components/Warning';
+import Notification from './components/Notification';
 
 
 const PLUGIN_NAME = 'OneFlexOpenPlugin';
@@ -20,9 +21,16 @@ export default class OneFlexOpenPlugin extends FlexPlugin {
    */
   init(flex) {
 
+    flex.Notifications.registerNotification({
+      id: "anotherFlexNotification",
+      content: <Notification />,
+      type: flex.NotificationType.info,
+      timeout: 0
+    });
+
     checkFlexTab(
       flex, 
-      <Warning key="more-than-one-flex-open" />
+      <Warning key="more-than-one-flex-open-" />
     );
   
   }
